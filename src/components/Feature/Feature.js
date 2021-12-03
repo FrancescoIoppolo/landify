@@ -43,7 +43,6 @@ import React from 'react';
                             {data.map(function(data, index){
                                 
                                 let fatureIcon = ""
-
                                 if(index === 0 || index === 4){
                                     fatureIcon = fatureIcon01
                                 }
@@ -53,7 +52,6 @@ import React from 'react';
                                 if(index === 2 || index === 3){
                                     fatureIcon = fatureIcon03
                                 }
-                                
                             return (
                                 <div className="blocco" key={index}>
                                     <div className="fatureIcon"><img src={fatureIcon} alt="" /></div>
