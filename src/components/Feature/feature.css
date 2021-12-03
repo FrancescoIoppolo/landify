@@ -1,0 +1,119 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 1108px;
+}
+
+.sectionHeading {
+  align-self: center;
+}
+
+.sectionTitle {
+  width: 540px;
+  height: 64px;
+  font-family: "Inter var", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  margin: 8px 0px;
+}
+
+.sectionDescription {
+  width: 540px;
+  height: 64px;
+  top: 72px;
+  font-family: "Inter var", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+  margin: 48px 0px;
+  align-items: center;
+}
+
+.row {
+  width: 1230px;
+  height: 148px;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.blocco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  height: 168px;
+  border-radius: 8px;
+  margin: 0px 30px;
+  margin-top: 20px !important;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 92px;
+  top: 56px;
+  margin: 24px 0px;
+}
+
+.featureIcon {
+  position: static;
+  width: 32px;
+  height: 32px;
+  left: 159px;
+  margin: 24px 0px;
+}
+
+.headline {
+  font-family: "Inter var", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  margin: 8px 0px;
+}
+
+.description {
+  width: 350px;
+  height: 52px;
+  top: 40px;
+  font-family: "Inter var", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  margin: 8px 0px;
+}

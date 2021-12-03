@@ -1,0 +1,46 @@
+.content {
+  position: absolute;
+  width: 730px;
+  height: 276px;
+  left: 165px;
+  top: 240px;
+}
+
+.content h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.content .button {
+  display: flex;
+  align-items: center;
+  width: 154px;
+  height: 48px;
+  background: #8c30f5;
+  border-radius: 6px;
+  margin: 32px 0px;
+}
+
+.button div {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+  width: 100%;
+}
+
+.phoneMockup {
+  position: absolute;
+  width: 350px;
+  height: 640px;
+  left: 925px;
+  top: 168px;
+}

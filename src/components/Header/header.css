@@ -1,0 +1,78 @@
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+}
+
+.leftNav {
+  display: flex;
+  position: absolute;
+  width: 567px;
+  height: 28px;
+  left: 165px;
+  top: calc(50% - 28px / 2);
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  position: absolute;
+  width: 282px;
+  height: 40px;
+  right: 165px;
+  top: calc(50% - 40px / 2 + 0px);
+}
+
+.logo {
+  width: 105px;
+  height: 28px;
+  flex: none;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  width: 430px;
+  height: 20px;
+  left: 137px;
+  top: 4px;
+  flex: none;
+  order: 1;
+  align-self: center;
+  margin-left: 32px;
+}
+
+.headerItem {
+  margin-right: 32px;
+}
+
+.label {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191f;
+}
+
+.chevronDown {
+  position: static;
+  width: 18px;
+  height: 18px;
+  left: 39px;
+  top: 2px;
+}
+
+.label.more {
+  width: 57px;
+}
+
+.badgeApple {
+  order: 1;
+}
+
+.badgeGoogle {
+  flex-grow: 0;
+  margin-right: 12px;
+}

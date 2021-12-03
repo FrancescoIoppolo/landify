@@ -1,0 +1,57 @@
+.logoClouds {
+  position: absolute;
+  width: 1440px;
+  height: 142px;
+  background: #ffffff;
+  top: 866px;
+}
+
+.logosSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 1110px;
+  height: 110px;
+  left: 165px;
+  top: 16px;
+}
+
+.dividerBottom {
+  width: 1110px;
+  height: 1px;
+  left: 0px;
+  top: 109px;
+  background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.dividerTop {
+  width: 1110px;
+  height: 1px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px;
+  width: 891px;
+  height: 60px;
+  margin: 24px 0px;
+}
+
+.logos .logo {
+  width: 100px;
+  margin-right: 64px;
+}
